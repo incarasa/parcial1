@@ -1,0 +1,11 @@
+.header-div h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-div {
+    text-align: center;
+}
+
+.header-image {
+    width: 800px;
+}

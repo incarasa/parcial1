@@ -1,0 +1,10 @@
+.detail-container {
+    border: 1px solid black;
+    display:inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+}

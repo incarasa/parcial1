@@ -1,0 +1,15 @@
+.body {
+    margin-left: 20px;
+}
+
+.div-table {
+    display: inline-block;
+    width: 800px;
+}
+
+.div-detail {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    vertical-align: top;
+}
