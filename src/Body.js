@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Body.css';
 import Detail from './Detail';
+import {FormattedMessage} from 'react-intl';
 
 
 
@@ -45,9 +46,9 @@ function Body() {
                     <thead className="thead-dark table-dark">
                     <tr>
                         <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Modelo</th>
-                        <th>Empresa Fabricante</th>
+                        <th><FormattedMessage id="Nombre"/></th>
+                        <th><FormattedMessage id="Modelo"/></th>
+                        <th><FormattedMessage id="EmpresaFabricante"/></th>
                     </tr>
                     </thead>
 
